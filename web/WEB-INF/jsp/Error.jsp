@@ -4,15 +4,15 @@
 <body>
 <h1 style="color:red">Error Page :</h1>
 
-<% 
+<%
 
-out.print("<br/>");
-out.print("Hello "+session.getAttribute("privilege"));
+    out.print("<br/>");
+    out.print("Hello " + session.getAttribute("privilege"));
 
 %>
 
 <h3>
-<spring:message code="${param.msg}" />
+    <spring:message code="${param.msg}"/>
 </h3>
 
 

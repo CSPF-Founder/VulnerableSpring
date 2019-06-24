@@ -3,11 +3,10 @@
 <html>
 <body>
 <h1>Spring Demo</h1>
-<% 
-if(session.getAttribute("privilege")==null)
-{
-session.setAttribute("privilege","user");
-}
+<%
+    if (session.getAttribute("privilege") == null) {
+        session.setAttribute("privilege", "user");
+    }
 %>
 <a href="admin.htm">Go to Admin Panel</a>
 
